@@ -1,0 +1,6 @@
+Customer ID,First Name,Last Name,Email,Phone Number,Date of Birth,Membership Start Date,Membership Type
+1001,John,Doe,johndoe@example.com,555-0100,15-06-85,01-01-20,Gold
+1002,Jane,Smith,janesmith@example.com,555-0101,05-09-90,15-03-21,Silver
+1003,Emily,Johnson,emilyj@example.com,555-0102,20-12-75,22-07-20,Gold
+1004,Michael,Brown,michaelb@example.com,555-0103,17-04-88,30-11-19,Bronze
+1005,Sarah,Davis,sarahd@example.com,555-0104,29-02-92,10-09-21,Silver

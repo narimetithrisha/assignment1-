@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Display Data</title>
+</head>
+<body>
+    <h1>Student Grades Summary</h1>
+    <p>Average Grade: {{ average }}</p>
+    <p>Highest Grade Student: {{ highest['name'] }} (Grade: {{ highest['grade'] }})</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

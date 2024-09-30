@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Your Grades</title>
+</head>
+<body>
+    <h1>Your Grades</h1>
+    <ul class="flashes">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </ul>
+    <div>
+        <h2>Grades</h2>
+        {{ grades|safe }}  <!-- This will render the HTML table of grades -->
+    </div>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

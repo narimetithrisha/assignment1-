@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.button-container 
+{
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #46a022;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px 2px;
+    transition: transform 0.2s;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #727e31;
+}
+
+form {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #210b3b;
+}
+.toggle-password {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle-password img {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    width: 25px;  /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.toggle-password img:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
